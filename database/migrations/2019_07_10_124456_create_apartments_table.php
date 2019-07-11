@@ -21,6 +21,8 @@ class CreateApartmentsTable extends Migration
       $table->integer('bathrooms');
       $table->integer('storeys');
       $table->integer('garages');
+
+
     });
   }
 

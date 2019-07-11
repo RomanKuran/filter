@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'ApartmentController@index')->name('filter.index');
+
+//Route::post('search', 'ApiFilterController@search')->name('filter.search');
